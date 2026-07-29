@@ -12,7 +12,7 @@ jobs:
     env:
       VSCE_PAT: ${{ secrets.VSCE_PAT }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Verify release secrets are configured
         run: |
           if [ -z "$VSCE_PAT" ]; then
