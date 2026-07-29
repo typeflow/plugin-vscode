@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thomasfarineau/typeflow"
+    "url": "https://github.com/typeflow/plugin-vscode"
   },
   "publisher": "typeflow",
   "main": "./dist/extension.js",
